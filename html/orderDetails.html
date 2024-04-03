@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Details</title>
+
+
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+    #order-details {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 10px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    #total-amount {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #fb9b35;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button.back {
+      background-color: #e0e0e0;
+    }
+  </style>
+  <script src="../js/order-details.js"></script>
+</head>
+<body>
+
+<div id="order-details">
+  <h2>Order Details</h2>
+
+  <table>
+    <tr>
+      <th>Hotel Name</th>
+      <td id="hotel-name"></td>
+    </tr>
+    <tr>
+      <th>Number of Persons</th>
+      <td id="num-persons"></td>
+    </tr>
+    <tr>
+      <th>Amount per Person</th>
+      <td id="amount-per-person"></td>
+    </tr>
+    <tr>
+      <th>Special Items Amount</th>
+      <td id="special-items-amount"></td>
+    </tr>
+    <tr>
+      <th>Total Amount</th>
+      <td id="total-amount"></td>
+    </tr>
+  </table>
+
+  <button class="back" onclick="goBack()">Back</button>
+  <button onclick="payNow()">Pay Now</button>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

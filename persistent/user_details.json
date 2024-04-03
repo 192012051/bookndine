@@ -1,0 +1,28 @@
+{
+    "details1": [
+        {
+            "hotelName": "Coal Barbeque",
+            "imgUrl": "img/Coalbarbeque.jpg",
+            "cost": "₹750 / Person",
+            "address": "Anna Nagar, Chennai"
+        },
+        {
+            "hotelName": "Barbeque Nation",
+            "imgUrl": "img/Coalbarbeque.jpg",
+            "cost": "₹699 / Person",
+            "address": "Thoraipakkam, Chennai"
+        },
+        {
+            "hotelName": "Thalappakatti",
+            "imgUrl": "img/Coalbarbeque.jpg",
+            "cost": "₹999 / Person",
+            "address": "T.Nagar, Chennai"
+        },
+        {
+            "hotelName": "WoW Momo",
+            "imgUrl": "img/Coalbarbeque.jpg",
+            "cost": "₹799 / Person",
+            "address": "Guduvanjeri, Chennai"
+        }
+    ]
+}
